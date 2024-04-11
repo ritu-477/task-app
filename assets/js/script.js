@@ -15,7 +15,7 @@ function tasktodo() {
         li.className = "list"
         li.innerHTML = `
     <div class="items active d-flex justify-content-between align-items-center mb-2">
-<p class="mb-0 active">${taskinput.value}</p>
+<p class="mb-0 active break-word">${taskinput.value}</p>
 <div class="d-flex align-items-center justify-content-center gap-3">
 <div class="circle d-flex align-items-center justify-content-center cursor" onclick="click()"><svg width="11" height="9"
         viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
